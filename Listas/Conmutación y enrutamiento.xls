@@ -1,0 +1,111 @@
+				<html xmlns:o="urn:schemas-microsoft-com:office:office"
+				xmlns:x="urn:schemas-microsoft-com:office:excel"
+				xmlns="http://www.w3.org/TR/REC-html40">
+
+				<head>
+				<meta http-equiv=Content-Type content="text/html; charset=us-ascii">
+				<meta name=ProgId content=Excel.Sheet>
+				<!--[if gte mso 9]><xml>
+				 <o:DocumentProperties>
+				  <o:LastAuthor>Mario Alberto Herrera Quintana</o:LastAuthor>
+				  <o:LastSaved>2005-01-02T07:46:23Z</o:LastSaved>
+				  <o:Version>10.2625</o:Version>
+				 </o:DocumentProperties>
+				 <o:OfficeDocumentSettings>
+				  <o:DownloadComponents/>
+				 </o:OfficeDocumentSettings>
+				</xml><![endif]-->
+				<style>
+				<!--table
+					{mso-displayed-decimal-separator:"\.";
+					mso-displayed-thousand-separator:"\,";}
+				@page
+					{margin:1.0in .75in 1.0in .75in;
+					mso-header-margin:.5in;
+					mso-footer-margin:.5in;}
+				tr
+					{mso-height-source:auto;}
+				col
+					{mso-width-source:auto;}
+				br
+					{mso-data-placement:same-cell;}
+				.style0
+					{mso-number-format:General;
+					text-align:general;
+					vertical-align:bottom;
+					white-space:nowrap;
+					mso-rotate:0;
+					mso-background-source:auto;
+					mso-pattern:auto;
+					color:windowtext;
+					font-size:10.0pt;
+					font-weight:400;
+					font-style:normal;
+					text-decoration:none;
+					font-family:Arial;
+					mso-generic-font-family:auto;
+					mso-font-charset:0;
+					border:none;
+					mso-protection:locked visible;
+					mso-style-name:Normal;
+					mso-style-id:0;}
+				td
+					{mso-style-parent:style0;
+					padding-top:1px;
+					padding-right:1px;
+					padding-left:1px;
+					mso-ignore:padding;
+					color:windowtext;
+					font-size:10.0pt;
+					font-weight:400;
+					font-style:normal;
+					text-decoration:none;
+					font-family:Arial;
+					mso-generic-font-family:auto;
+					mso-font-charset:0;
+					mso-number-format:General;
+					text-align:general;
+					vertical-align:bottom;
+					border:none;
+					mso-background-source:auto;
+					mso-pattern:auto;
+					mso-protection:locked visible;
+					white-space:nowrap;
+					mso-rotate:0;}
+				.xl24
+					{mso-style-parent:style0;
+					white-space:normal;}
+				-->
+				</style>
+				<!--[if gte mso 9]><xml>
+				 <x:ExcelWorkbook>
+				  <x:ExcelWorksheets>
+				   <x:ExcelWorksheet>
+					<x:Name>Mario</x:Name>
+					<x:WorksheetOptions>
+					 <x:Selected/>
+					 <x:ProtectContents>False</x:ProtectContents>
+					 <x:ProtectObjects>False</x:ProtectObjects>
+					 <x:ProtectScenarios>False</x:ProtectScenarios>
+					</x:WorksheetOptions>
+				   </x:ExcelWorksheet>
+				  </x:ExcelWorksheets>
+				  <x:WindowHeight>10005</x:WindowHeight>
+				  <x:WindowWidth>10005</x:WindowWidth>
+				  <x:WindowTopX>120</x:WindowTopX>
+				  <x:WindowTopY>135</x:WindowTopY>
+				  <x:ProtectStructure>False</x:ProtectStructure>
+				  <x:ProtectWindows>False</x:ProtectWindows>
+				 </x:ExcelWorkbook>
+				</xml><![endif]-->
+				</head>
+
+				<body link=blue vlink=purple>
+				<table x:str border=0 cellpadding=0 cellspacing=0 style='border-collapse: collapse;table-layout:fixed;'><tr><td class=xl24 width=64 >No de Control</td><td class=xl24 width=64 >Nombre Completo</td><td class=xl24 width=64 >Carrera</td></tr><tr><td class=xl24 width=64 >19120072  </td><td class=xl24 width=64 >ABRIL TEMAXTE IGNACIO</td><td class=xl24 width=64 >INGENIERIA EN SISTEMAS COMPUTACIONALES</td></tr><tr><td class=xl24 width=64 >20120052  </td><td class=xl24 width=64 >ASUNCION SALAS JUAN JESUS</td><td class=xl24 width=64 >INGENIERIA EN SISTEMAS COMPUTACIONALES</td></tr><tr><td class=xl24 width=64 >20120063  </td><td class=xl24 width=64 >CASTRO ROMÁN LUIS ENRIQUE</td><td class=xl24 width=64 >INGENIERIA EN SISTEMAS COMPUTACIONALES</td></tr><tr><td class=xl24 width=64 >20120072  </td><td class=xl24 width=64 >CEDILLO CHAVEZ EZEQUIEL</td><td class=xl24 width=64 >INGENIERIA EN SISTEMAS COMPUTACIONALES</td></tr><tr><td class=xl24 width=64 >19120104  </td><td class=xl24 width=64 >CORNELIO EVANGELISTA GRETEL GUADALUPE</td><td class=xl24 width=64 >INGENIERIA EN SISTEMAS COMPUTACIONALES</td></tr><tr><td class=xl24 width=64 >20120056  </td><td class=xl24 width=64 >CORREA SANDOVAL ALAN</td><td class=xl24 width=64 >INGENIERIA EN SISTEMAS COMPUTACIONALES</td></tr><tr><td class=xl24 width=64 >20120069  </td><td class=xl24 width=64 >FLORES GALLARDO MARLY KARINA</td><td class=xl24 width=64 >INGENIERIA EN SISTEMAS COMPUTACIONALES</td></tr><tr><td class=xl24 width=64 >20120057  </td><td class=xl24 width=64 >LOMAS SIMÓN JESÚS ALBERTO</td><td class=xl24 width=64 >INGENIERIA EN SISTEMAS COMPUTACIONALES</td></tr><tr><td class=xl24 width=64 >20120075  </td><td class=xl24 width=64 >MALDONADO TREVIÑO MARIEL</td><td class=xl24 width=64 >INGENIERIA EN SISTEMAS COMPUTACIONALES</td></tr><tr><td class=xl24 width=64 >20120055  </td><td class=xl24 width=64 >MARCOS SANDOVAL KARLA YOSELIN</td><td class=xl24 width=64 >INGENIERIA EN SISTEMAS COMPUTACIONALES</td></tr><tr><td class=xl24 width=64 >20120079  </td><td class=xl24 width=64 >OLIVARES DE JESÚS SERGIO URIEL</td><td class=xl24 width=64 >INGENIERIA EN SISTEMAS COMPUTACIONALES</td></tr><tr><td class=xl24 width=64 >20120059  </td><td class=xl24 width=64 >OLIVIER MORALES JUAN MANUEL</td><td class=xl24 width=64 >INGENIERIA EN SISTEMAS COMPUTACIONALES</td></tr><tr><td class=xl24 width=64 >20120073  </td><td class=xl24 width=64 >PACHECO ALBERTO ABRAHAM YAHIR</td><td class=xl24 width=64 >INGENIERIA EN SISTEMAS COMPUTACIONALES</td></tr><tr><td class=xl24 width=64 >20120062  </td><td class=xl24 width=64 >REYNA OROPEZA GUSTAVO	</td><td class=xl24 width=64 >INGENIERIA EN SISTEMAS COMPUTACIONALES</td></tr><tr><td class=xl24 width=64 >20120053  </td><td class=xl24 width=64 >SANDOVAL MIJARES ERICK JARED</td><td class=xl24 width=64 >INGENIERIA EN SISTEMAS COMPUTACIONALES</td></tr><tr><td class=xl24 width=64 >19120090  </td><td class=xl24 width=64 >SANTOS  CABANZO ANNET MICHEL</td><td class=xl24 width=64 >INGENIERIA EN SISTEMAS COMPUTACIONALES</td></tr><tr><td class=xl24 width=64 >19120094  </td><td class=xl24 width=64 >SEGURA JIMENEZ EDUARDO EMILIANO</td><td class=xl24 width=64 >INGENIERIA EN SISTEMAS COMPUTACIONALES</td></tr><tr><td class=xl24 width=64 >20120060  </td><td class=xl24 width=64 >TECUA MONTALVO LUIS ENRIQUE</td><td class=xl24 width=64 >INGENIERIA EN SISTEMAS COMPUTACIONALES</td></tr><tr><td class=xl24 width=64 >19120098  </td><td class=xl24 width=64 >VALERIO SANDOVAL JAEL OMAR</td><td class=xl24 width=64 >INGENIERIA EN SISTEMAS COMPUTACIONALES</td></tr></table></body></html><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="">
+<head>
+<!--<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />-->
+<title>Error al Descarregar el archivo2U7.xls</title></head>
+<body><p>No se ha podido descargar el listado, comuniquese con el Administrador</p>
+</body>
+</html>
