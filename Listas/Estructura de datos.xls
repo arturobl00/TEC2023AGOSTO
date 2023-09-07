@@ -8,9 +8,9 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <meta http-equiv=Content-Type content="text/html; charset=us-ascii">
 <meta name=ProgId content=Excel.Sheet>
 <meta name=Generator content="Microsoft Excel 15">
-<link rel=File-List href="Estructura%20de%20datos_archivos/filelist.xml">
+<link rel=File-List href="Estructura%20de%20datos.files/filelist.xml">
 <![if !supportTabStrip]>
-<link id="shLink" href="Estructura%20de%20datos_archivos/sheet001.htm">
+<link id="shLink" href="Estructura%20de%20datos.files/sheet001.htm">
 
 <link id="shLink">
 
@@ -298,12 +298,12 @@ function fnSetActiveSheet(iSh)
   <x:ExcelWorksheets>
    <x:ExcelWorksheet>
     <x:Name>Unidad 1</x:Name>
-    <x:WorksheetSource HRef="Estructura%20de%20datos_archivos/sheet001.htm"/>
+    <x:WorksheetSource HRef="Estructura%20de%20datos.files/sheet001.htm"/>
    </x:ExcelWorksheet>
   </x:ExcelWorksheets>
-  <x:Stylesheet HRef="Estructura%20de%20datos_archivos/stylesheet.css"/>
-  <x:WindowHeight>7185</x:WindowHeight>
-  <x:WindowWidth>20490</x:WindowWidth>
+  <x:Stylesheet HRef="Estructura%20de%20datos.files/stylesheet.css"/>
+  <x:WindowHeight>8676</x:WindowHeight>
+  <x:WindowWidth>23040</x:WindowWidth>
   <x:WindowTopX>32767</x:WindowTopX>
   <x:WindowTopY>32767</x:WindowTopY>
   <x:ProtectStructure>False</x:ProtectStructure>
@@ -313,11 +313,11 @@ function fnSetActiveSheet(iSh)
 </head>
 
 <frameset rows="*,39" border=0 width=0 frameborder=no framespacing=0>
- <frame src="Estructura%20de%20datos_archivos/sheet001.htm" name="frSheet">
- <frame src="Estructura%20de%20datos_archivos/tabstrip.htm" name="frTabs" marginwidth=0 marginheight=0>
+ <frame src="Estructura%20de%20datos.files/sheet001.htm" name="frSheet">
+ <frame src="Estructura%20de%20datos.files/tabstrip.htm" name="frTabs" marginwidth=0 marginheight=0>
  <noframes>
   <body>
-   <p>Esta p&aacute;gina utiliza marcos que su explorador no admite.</p>
+   <p>Esta p&aacute;gina utiliza marcos que tu explorador no admite.</p>
   </body>
  </noframes>
 </frameset>
