@@ -87,8 +87,14 @@ td
 	border-left:none;}
 .xl69
 	{mso-style-parent:style0;
-	border:.5pt solid windowtext;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
 	white-space:normal;}
 .xl70
 	{mso-style-parent:style0;
-	border:.5pt solid windowtext;}
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;}
