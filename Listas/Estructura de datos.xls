@@ -12,16 +12,18 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <![if !supportTabStrip]>
 <link id="shLink" href="Estructura%20de%20datos.files/sheet001.htm">
 <link id="shLink" href="Estructura%20de%20datos.files/sheet002.htm">
+<link id="shLink" href="Estructura%20de%20datos.files/sheet003.htm">
 
 <link id="shLink">
 
 <script language="JavaScript">
 <!--
- var c_lTabs=2;
+ var c_lTabs=3;
 
  var c_rgszSh=new Array(c_lTabs);
  c_rgszSh[0] = "Unidad&nbsp;1";
  c_rgszSh[1] = "Unidad&nbsp;2";
+ c_rgszSh[2] = "Unidad&nbsp;3";
 
 
 
@@ -305,6 +307,10 @@ function fnSetActiveSheet(iSh)
    <x:ExcelWorksheet>
     <x:Name>Unidad 2</x:Name>
     <x:WorksheetSource HRef="Estructura%20de%20datos.files/sheet002.htm"/>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>Unidad 3</x:Name>
+    <x:WorksheetSource HRef="Estructura%20de%20datos.files/sheet003.htm"/>
    </x:ExcelWorksheet>
   </x:ExcelWorksheets>
   <x:Stylesheet HRef="Estructura%20de%20datos.files/stylesheet.css"/>

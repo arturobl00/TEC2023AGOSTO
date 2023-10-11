@@ -1,0 +1,71 @@
+Configuración del Switch
+Primer paso la vlan
+Switch>enable
+Switch#vlan database
+Switch(vlan)#vlan 2 name lsti
+Switch(vlan)#exit
+
+Segundo paso el rango de puertos
+Switch#config t
+Switch(config)#interface range fastethernet 0/2-5
+Switch(config-if-range)#switchport voice vlan 2
+Switch(config-if-range)#interface fastethernet 0/1
+Switch(config-if)#switchport mode trunk
+Switch(config-if)#end
+
+Tercero Guardar Cambios
+Switch#wr
+
+Condifuración del Router
+Primer paso levanrar el puerto que comunica al Switch
+Router>enable
+Router#
+Router#config t
+Router(config)#interface fastethernet 0/0
+Router(config-if)#no shutdown
+Router(config-if)#exit
+
+Segundo paso Servidor DHCP
+Router(config)#ip dhcp pool isti
+Router(dhcp-config)#network 192.168.0.0 255.255.255.0
+Router(dhcp-config)#default-router 192.168.0.1
+Router(dhcp-config)#option 150 ip 192.168.0.1
+Router(dhcp-config)#end
+
+Tercer Paso Encapsular la red y la vlan
+Router#
+Router#config t
+Router(config)#interface fastethernet 0/0.2
+Router(config-subif)#encapsulation dot1Q 2
+Router(config-subif)#ip add 192.168.0.1 255.255.255.0
+Router(config-subif)#end
+Router#
+Router#wr
+
+Cuarto Paso agregamos el servicio de telefonia
+Router(config)#
+Router(config)#telephony-service
+Router(config-telephony)#max-dn 4
+Router(config-telephony)#max-ephones 4
+Router(config-telephony)#ip source-address 192.163.0.1 port 2000
+Router(config-telephony)#auto assign 1 to 4
+Router(config-telephony)#end
+Router#wr
+
+Quinto paso agregamos los telefonos
+Router#config t
+Router(config-ephone-dn)#ephone-dn 1
+Router(config-ephone-dn)#number 501
+%IPPHONE-6-REGISTER: ephone-1 IP:192.168.0.4 Socket:2 DeviceType:Phone has registered.
+
+Router(config-ephone-dn)#ephone-dn 2
+Router(config-ephone-dn)#number 502
+%IPPHONE-6-REGISTER: ephone-2 IP:192.168.0.3 Socket:2 DeviceType:Phone has registered.
+
+Router(config-ephone-dn)#ephone-dn 3
+Router(config-ephone-dn)#number 503
+%IPPHONE-6-REGISTER: ephone-3 IP:192.168.0.5 Socket:2 DeviceType:Phone has registered.
+
+Router(config-ephone-dn)#ephone-dn 4
+Router(config-ephone-dn)#number 504
+%SYS-5-CONFIG_I: Configured 
