@@ -54,6 +54,8 @@ td
 	mso-font-charset:0;}
 .xl66
 	{mso-style-parent:style0;
+	text-align:center;
+	vertical-align:middle;
 	border:.5pt solid windowtext;
 	white-space:normal;}
 .xl67
@@ -61,43 +63,62 @@ td
 	font-size:9.0pt;
 	font-family:Arial, sans-serif;
 	mso-font-charset:0;
-	border:.5pt solid windowtext;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
 	white-space:normal;}
 .xl68
 	{mso-style-parent:style0;
-	border:.5pt solid windowtext;}
-.xl69
-	{mso-style-parent:style0;
-	font-size:9.0pt;
-	font-family:Arial, sans-serif;
-	mso-font-charset:0;
-	border:.5pt solid windowtext;}
-.xl70
-	{mso-style-parent:style0;
+	mso-number-format:"Short Date";
 	text-align:center;
 	vertical-align:middle;
-	border:.5pt solid windowtext;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	mso-rotate:90;}
+.xl69
+	{mso-style-parent:style0;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;}
+.xl70
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
 	white-space:normal;}
 .xl71
 	{mso-style-parent:style0;
 	font-size:9.0pt;
 	font-family:Arial, sans-serif;
 	mso-font-charset:0;
-	text-align:center;
-	vertical-align:middle;
-	border:.5pt solid windowtext;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
 	white-space:normal;}
 .xl72
 	{mso-style-parent:style0;
-	mso-number-format:"Short Date";
-	text-align:center;
-	vertical-align:middle;
-	border:.5pt solid windowtext;
-	mso-rotate:90;}
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;}
 .xl73
 	{mso-style-parent:style0;
+	font-size:9.0pt;
 	font-family:Arial, sans-serif;
 	mso-font-charset:0;
-	text-align:center;
-	vertical-align:middle;
-	border:.5pt solid windowtext;}
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;}

@@ -308,8 +308,8 @@ function fnSetActiveSheet(iSh)
    </x:ExcelWorksheet>
   </x:ExcelWorksheets>
   <x:Stylesheet HRef="Conmutaci&#243;n%20y%20enrutamiento.files/stylesheet.css"/>
-  <x:WindowHeight>11865</x:WindowHeight>
-  <x:WindowWidth>32767</x:WindowWidth>
+  <x:WindowHeight>5196</x:WindowHeight>
+  <x:WindowWidth>17064</x:WindowWidth>
   <x:WindowTopX>32767</x:WindowTopX>
   <x:WindowTopY>32767</x:WindowTopY>
   <x:ActiveSheet>1</x:ActiveSheet>
