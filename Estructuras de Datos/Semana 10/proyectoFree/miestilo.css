@@ -1,0 +1,15 @@
+.columna{
+    color: white;
+    font-size: 25px;
+    background-color: #05077b;
+    border: 5px solid white;
+}
+
+/*Cambie la palabra row por fila para el estilo*/
+.fila{
+    background-color: orange;
+    border: 3px solid rgb(110,73,5);
+    padding: 5px;
+    margin: 10px;
+}
+
