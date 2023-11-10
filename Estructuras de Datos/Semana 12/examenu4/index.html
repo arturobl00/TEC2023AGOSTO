@@ -41,6 +41,9 @@
                         <a class="nav-link" href="#proyectos">Proyectos</a>
                       </li>
                       <li class="nav-item">
+                        <a class="nav-link" href="#offCanvas">OffCanvas</a>
+                      </li>
+                      <li class="nav-item">
                         <a class="nav-link" href="#testimonios">Testimonios</a>
                       </li>
                       <li class="nav-item">
@@ -236,46 +239,178 @@
       </div>
     </section>
 
-    <!--Articulos-->
-    <section class="artículos justify-content-start">
-      <h2 class="seccion-titulo texto-negro">Artículos</h2>
-      <div class="card">
-        <div class="card-header">
-          Más recientes
-        </div>
-        <ul class="list-group list-group-flush">
-          <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
-            <li class="list-group-item">
-              El decorador @property en Python - cómo usarlo, ventajas y sintaxis
-            </li>
-          </a>
-          <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
-            <li class="list-group-item">
-              Python tutorial ciclos while - while True ejemplos de sintaxis y ciclos infinitos
-            </li>
-          </a>
-          <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
-            <li class="list-group-item">
-              Python leer archivo JSON - cómo cargar JSON desde un archivo y procesar dumps
-            </li>
-          </a>
-          <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
-            <li class="list-group-item">
-              Python cómo escribir en un archivo - abrir, leer, escribir y otras funciones de archivos explicadas
-            </li>
-          </a>
-          <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
-            <li class="list-group-item">
-              ¿Para qué se usa Python? 10+ usos del lenguaje de programación Python
-            </li>
-          </a>
-        </ul>
+    <!--OffCanvas-->
+    <section id="offCanvas" class="seccion-clara d-flex">
+      <div class="container text-center">
+        <h1>Visita mis Canvas</h1>
+        <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+          Chistes de Ing. en Sistemas
+        </a>
       </div>
+  
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Chistes...</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div class="row">
+            <div class="col-12">
+              <span>
+                <strong>😍 Un programador</strong> entra a una tienda de hardware y pregunta al vendedor, "¿Tienen lámparas inteligentes?"
+                El vendedor responde, "Sí, las tenemos."
+                El programador dice, "¡Genial! Quiero una que hable Java."
+                El vendedor le mira extrañado y pregunta, "¿Java? ¿Por qué?"
+                El programador sonríe y dice, "Así puedo iluminar mi vida con un poco de herencia y polimorfismo."
+                </span>
+            </div>
+            <br>
+            <div class="col-12">
+              <span>
+                <strong>😒 Un programador</strong> le dice a su amigo: "Estoy leyendo un libro sobre anti-gravedad. ¡No puedo dejar de leerlo!"
+                El amigo le mira confundido y pregunta: "¿Anti-gravedad? ¿Cómo funciona eso?"
+                El programador responde con una sonrisa: "Bueno, por ahora solo puedo decir que está elevando mis expectativas."
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+    </section>
+        
+    <!--Testimonios-->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion-descripcion">Estos son algunos testimonios de mis clientes...</h3>
+
+      <!--Carrusel-->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <!--Primer Comentario activo-->
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/cliente1.svg" alt="Foto Gino">
+              <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet modi hic aliquid obcaecati, tempora vero qui perspiciatis explicabo nobis iusto doloremque, atque ipsum, esse quam nostrum ab odit voluptatum nesciunt?</p>
+              <div class="testimonio-info">
+                <p class="cliente">Gino</p>
+                <p class="cargo">Gerente de Desarrollo Web</p>
+              </div>
+            </div>
+          </div>
+          
+
+          <!--Segundo Comentario-->
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/cliente2.svg" alt="Foto Gino">
+              <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos nesciunt fuga iusto nemo tempore reiciendis rerum id impedit porro voluptatibus optio veniam eligendi, adipisci cupiditate repellendus expedita reprehenderit magnam obcaecati.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Nora</p>
+                <p class="cargo">Gerente de Diseño Página Web</p>
+              </div>
+            </div>
+          </div>
+
+
+          <!--Tercer Comentario-->
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/cliente3.svg" alt="Foto Gino">
+              <p class="testimonio-texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam ab quas, commodi recusandae aspernatur rerum maxime quae in nulla esse voluptatum velit eveniet incidunt cupiditate? Ullam at excepturi aliquam accusamus.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Leonardo</p>
+                <p class="cargo">Director de aprende a programar</p>
+              </div>
+            </div>
+          </div>
+        
+
+        <!--Cuarto Comentario-->
+        <div class="carousel-item">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="imagenes/chica1.jpg" alt="Foto Gino">
+            <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ullam velit consequuntur blanditiis, provident saepe esse cumque, doloremque quisquam ipsam deleniti voluptatem error modi tempora nemo voluptate, aspernatur exercitationem harum.</p>
+            <div class="testimonio-info">
+              <p class="cliente">Samantha</p>
+              <p class="cargo">Desarrolladora FrontEnd</p>
+            </div>
+          </div>
+        </div>
       
+
+
+      <!--Quinto Comentario-->
+      <div class="carousel-item">
+        <div class="container">
+          <img class="testimonio-imagen rounded-circle" src="imagenes/chica2.png" alt="Foto Gino">
+          <p class="testimonio-texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis atque non quis officia, quod aspernatur, eaque, beatae at illum ut explicabo reiciendis laboriosam omnis odio ipsum laudantium tempore ad dolorem.</p>
+          <div class="testimonio-info">
+            <p class="cliente">Claudia</p>
+            <p class="cargo">Project Manager</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+        <!--Botones de Carousel-->
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
     </section>
 
+    <!--Contacto-->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container-fluid">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">  
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contáctame para iniciar tu proyecto de desarrollo web y haré que tu visión se vuelva realidad.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:janedoe@micorreo.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="Logo del portafolio">
+      <p class="footer-texto text-center">Aprendo y creo todos los días.<br>Creemos un proyecto juntos.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://twitter.com/freecodecampES" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="https://github.com/freeCodeCamp/freeCodeCamp" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/freecodecamp/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="mailto:janedoe@micorreo.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por José Arturo Bustamante Lazcano (2022) &#169;</div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
